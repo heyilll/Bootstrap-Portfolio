@@ -84,12 +84,20 @@ section h2 {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.sideAccent {
-  background: #007bff;
-  width: 15px;
+#navbarNav {
+  justify-content: flex-end;
 }
 
-.pic1 {
+/* .jumbotron {
+  justify-content: center !important;
+} */
+
+.sideAccent {
+  background : #007bff ; 
+  border-left:5px solid black ;
+}
+
+/* .pic1 {
   background-image: url("../images/02-portfolio-4.jpg");
 }
 
@@ -107,4 +115,10 @@ section h2 {
 
 .pic5 {
   background-image: url("../images/02-run-buddy.jpg");
+} */
+
+.pic {
+  background-image: url("../images/02-hero-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
