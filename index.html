@@ -37,6 +37,7 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="#about">About <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="#work">Work</a>
+        <a class="nav-item nav-link" href="#skills">Skills</a>
         <a class="nav-item nav-link" href="#contact">Contact Me</a>
       </div>
     </div>
@@ -50,10 +51,10 @@
     </div>
   </div>
 
-  <div class="w-80 pwrapper">
+  <div class="pwrapper">
   <!-- About Me Section -->
   <section class="about" id="about">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-3">
           <h2 class="section-heading">About Me</h2>
@@ -70,84 +71,87 @@
   </section>
 
   <!-- Work/Projects Section -->
-  <section class="work">
-    <div class="container">
+  <section class="work" id="work">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-3">
           <h2>Work</h2>
         </div>
 
-        <div class="col-lg-9 sideAccent">
-          <div class="card">
+        <div class="col-lg-9 sideAccent d-flex flex-wrap grd">
+          <div class="card proj code-card"> 
             <img class="card-img" src="./assets/images/02-portfolio-4.jpg" alt="Card image">
+            <a href="https://google.com" class="stretched-link"></a>
             <div class="card-img-overlay">
-              <h5 class="card-title">John</h5>
-              <p class="card-text">hhhhhhhhhhhhhhh</p>
+              <h5 class="heading">Project 1</h5>
             </div>
           </div>
 
-          <div class="card">
+          <div class="card proj code-card w-50">
             <img class="card-img" src="./assets/images/02-portfolio-1.jpg" alt="Card image">
+            <a href="https://google.com" class="stretched-link"></a>
             <div class="card-img-overlay">
-              <h5 class="card-title">John</h5>
-              <p class="card-text">hhhhhhhhhhhhhhh</p>
+              <h5 class="heading">Project 2</h5>
             </div>
           </div>
 
-          <div class="card">
+          <div class="card proj code-card w-50">
             <img class="card-img" src="./assets/images/02-portfolio-2.jpg" alt="Card image">
+            <a href="https://google.com" class="stretched-link"></a>
             <div class="card-img-overlay">
-              <h5 class="card-title">John</h5>
-              <p class="card-text">hhhhhhhhhhhhhhh</p>
+              <h5 class="heading">Project 3</h5>
             </div>
           </div>
 
-          <div class="card">
+          <div class="card proj code-card w-50">
             <img class="card-img" src="./assets/images/02-portfolio-3.jpg" alt="Card image">
+            <a href="https://google.com" class="stretched-link"></a>
             <div class="card-img-overlay">
-              <h5 class="card-title">John</h5>
-              <p class="card-text">hhhhhhhhhhhhhhh</p>
+              <h5 class="heading">Project 4</h5>
             </div>
           </div>
 
-          <div class="card">
+          <div class="card proj code-card w-50">
             <img class="card-img" src="./assets/images/02-run-buddy.jpg" alt="Card image">
+            <a href="https://google.com" class="stretched-link"></a>
             <div class="card-img-overlay">
-              <h5 class="card-title">John</h5>
-              <p class="card-text">hhhhhhhhhhhhhhh</p>
+              <h5 class="heading">Project 5</h5>
             </div>
           </div>
+
         </div>
       </div>  
     </div>
   </section>
 
+  <!-- skills section -->
+  <section class="skills" id="skills">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="col-lg-9 sideAccent d-flex flex-wrap">
+
+        </div>
+      </div>
+  </section>
+
   <!-- Contact Me Section-->
-  <section class="contact-section bg-black">
-    <div class="container">
+  <section class="contact-section" id="contact">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-3">
           <h2>Contact Us</h2>
         </div>
 
-        <div class="col-lg-9 card-group sideAccent">
-          <div class="row">
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <div class="small text-black-50"><a href="#!">hello@california.com</a></div>
-              </div>
-            </div>
-  
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <div class="small text-black-50">+55-5555</div>
-              </div>
-            </div>
-  
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <div class="small text-black-50">+55-5555</div>
-              </div>
+        <div class="col-lg-9 sideAccent">
+          <div class="container-fluid row d-flex justify-content-around">
+            <div class="contact">
+              <a href="#contact">+55-5555</a>
+              <a href="#contact">+55-5555</a>
+              <a href="#contact">email@email.com</a>
             </div>
           </div>
         </div>       
@@ -155,11 +159,11 @@
     </div>
   </section>
 
-  <!-- <footer>
-    <div class="container">
-      <p>Copyright [Insert Your Name 2021]</p>
+  <footer>
+    <div class="container-fluid text-center">
+      <p>Copyright Heil Park 2022</p>
     </div>
-  </footer> -->
+  </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
