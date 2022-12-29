@@ -112,4 +112,5 @@ You are required to submit BOTH of the following for review:
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
 Link To Deployed Application: https://heyilll.github.io/Bootstrap-Portfolio/
-Screenshot: 
+
+Screenshot: ![image](https://user-images.githubusercontent.com/117127128/209891505-8033296d-7bab-4e74-a794-40b93e510499.png)
