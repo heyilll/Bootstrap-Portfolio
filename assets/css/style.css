@@ -8,14 +8,13 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
   line-height: 1.5;
 }
 
 .pwrapper {
   width: 80%;
   margin: 0 auto;
-  /* border: 6px solid black; */
 }
 
 a {
@@ -23,7 +22,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #fcbd20;
+  color: #fc2020;
 }
 
 h2 {
@@ -40,6 +39,10 @@ h2 {
   background-color: black;
   padding: 5px;
   font-size: 55px;
+}
+
+.navbar-toggler {
+  background-color: orange
 }
 
 p {
@@ -64,8 +67,7 @@ section {
 }
 
 .sideAccent {
-  background : #007bff ; 
-  border-left:5px solid black ;
+  border-left: 7px solid green;
 }
 
 .pic {
@@ -74,21 +76,39 @@ section {
   background-repeat: no-repeat;
 }
 
+.col-lg-6, .col-lg-12 {
+  padding: 0px;
+}
+
 .proj {
   border: 5px solid black;
   margin: 5px;
-}
-
-.proj h5 {
-  background-color: black;
-}
-
-.grd {
-  /* height: 1000px; */
-}
-
-.card-img {
+  height: 250px;
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#p1 {
+  background-image: url("../images/02-portfolio-4.jpg");
+  height: 500px;
+}
+
+#p2 {
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+#p3 {
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+#p4 {
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+#p5 {
+  background-image: url("../images/02-run-buddy.jpg");
 }
 
 .bgcon h2 {
@@ -120,13 +140,32 @@ section {
   font-size: 28px;
   color:white;
   position: relative;
-  margin-bottom: 25%;
   width: 150px;
   height: 75px;
 }
 
-#contact a {
-  display: inline-block;
+.listskill {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+ 
+.contact {
+  justify-content: space-evenly;
+}
+
+.contact a {
   font-size: 25px;
   padding: 10px;
+}
+
+@media (max-width: 576px) {
+  .listskill {
+    margin-top: 20px;
+  }
+
+  .sideAccent {
+    border: none;
+    border-top: 7px solid green;
+  }
 }
