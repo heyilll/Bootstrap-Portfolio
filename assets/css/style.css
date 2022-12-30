@@ -12,11 +12,31 @@ body {
   line-height: 1.5;
 }
 
+h2 {
+  font-size: 50px !important;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 15px 0;
+}
+
+.col-lg-6, .col-lg-12 {
+  padding: 0px;
+}
+
+/* page wrapper */
 .pwrapper {
   width: 80%;
   margin: 0 auto;
 }
 
+/* hyperlink and hover */
 a {
   color: #fdcc52;
 }
@@ -25,10 +45,7 @@ a:hover, a:focus {
   color: #fc2020;
 }
 
-h2 {
-  font-size: 50px !important;
-}
-
+/* navbar */
 .navbar-custom {
   background-color: #2a607c;
   padding: 25px;
@@ -45,16 +62,6 @@ h2 {
   background-color: orange
 }
 
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-section {
-  padding: 15px 0;
-}
-
 #navbarNav {
   justify-content: flex-end;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -66,20 +73,33 @@ section {
   text-decoration: none;
 }
 
+/* sideaccent colour */
 .sideAccent {
   border-left: 7px solid green;
 }
 
+/* banner image */
 .pic {
   background-image: url("../images/02-hero-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.col-lg-6, .col-lg-12 {
-  padding: 0px;
+/* banner content */
+.bgcon h2 {
+  font-size: 35px;
+  padding: 5px;
+  background-color: aqua;
+  width: fit-content;
 }
 
+.bgcon img {
+  background-position: center;
+  width: 96px;
+  height: auto;
+}
+
+/* project section */
 .proj {
   border: 5px solid black;
   margin: 5px;
@@ -88,6 +108,15 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
+}
+
+.heading {
+  background-color: rgba(0,0,0,1);
+  font-size: 28px;
+  color:white;
+  position: relative;
+  width: 150px;
+  height: 75px;
 }
 
 #p1 {
@@ -111,19 +140,6 @@ section {
   background-image: url("../images/02-run-buddy.jpg");
 }
 
-.bgcon h2 {
-  font-size: 35px;
-  padding: 5px;
-  background-color: aqua;
-  width: fit-content;
-}
-
-.bgcon img {
-  background-position: center;
-  width: 96px;
-  height: auto;
-}
-
 /* hover animation */
 .code-card .card-header {
   border-radius: 8px;
@@ -135,21 +151,14 @@ section {
   box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
 }
 
-.heading {
-  background-color: rgba(0,0,0,1);
-  font-size: 28px;
-  color:white;
-  position: relative;
-  width: 150px;
-  height: 75px;
-}
-
+/* skills section */
 .listskill {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
  
+/* contacts section */
 .contact {
   justify-content: space-evenly;
 }
@@ -159,6 +168,7 @@ section {
   padding: 10px;
 }
 
+/* responsive design */
 @media (max-width: 576px) {
   .listskill {
     margin-top: 20px;
